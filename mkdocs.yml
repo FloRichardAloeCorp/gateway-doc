@@ -1,0 +1,22 @@
+site_name: Gateway documentation
+
+theme:
+  name: material
+
+markdown_extensions:
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: ./getting_started/index.md
+      - Basic Configuration: ./getting_started/basic_configuration.md
+
+  - Configuration:
+      - Fundamentals: ./configuration/index.md
+      - Logger: ./configuration/logger.md
+      - Server: ./configuration/server.md
+      - Global Middlewares: ./configuration/global_middlewares.md
+      - Services: ./configuration/services.md
+      - Authorization Middleware: ./configuration/auth_middleware.md
+      - Rate limiting: ./configuration/rate_limit.md

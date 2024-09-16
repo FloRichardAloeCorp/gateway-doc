@@ -13,9 +13,9 @@ NOTE: Not all middlewares can be declared as global.
 middlewares:
 
   # Auth middleware configuration.
-  # See "TODO" to learn more about auth middleware.
+  # See https://gateway-doc.onrender.com/configuration/auth_middleware/ to learn more about auth middleware.
   auth:
   
-    # Auth middleware configuration fields. See "TODO".
+    # Auth middleware configuration fields. See https://gateway-doc.onrender.com/configuration/auth_middleware/.
     [auth_config]
 ```

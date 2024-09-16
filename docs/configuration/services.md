@@ -32,7 +32,7 @@ services:
         # Toggle auth middleware for the service.
         enabled: <boolean>
 
-        # Auth middleware configuration fields. See "TODO".
+        # Auth middleware configuration fields. See https://gateway-doc.onrender.com/configuration/auth_middleware/.
         # 
         # All unset fields will be overridden by the 
         # global auth configuration middleware.
@@ -55,7 +55,7 @@ services:
         # Toggle rate limiting middleware.
         enabled: <boolean>
 
-        # Rate limit middleware configuration. See "TODO".
+        # Rate limit middleware configuration. See https://gateway-doc.onrender.com/configuration/rate_limit/.
         [rate_limit_config]
 
     # Service endpoint configuration.
@@ -75,11 +75,11 @@ services:
           # Toggle auth middleware for this endpoint.
           enabled: <boolean>
 
-          # List of accepted roles in the JWT. See "TODO".
+          # List of accepted roles in the JWT. See https://gateway-doc.onrender.com/configuration/auth_middleware/.
           authorized_roles:
             - <string>
 
-          # List of required permissions in the JWT. See "TODO".
+          # List of required permissions in the JWT. See https://gateway-doc.onrender.com/configuration/auth_middleware/.
           required_permissions:
             - <string>
 
@@ -89,7 +89,7 @@ services:
           # Toggle rate limit middleware for this endpoint.
           enabled: <boolean>
 
-          # Rate limit middleware configuration. See "TODO".
+          # Rate limit middleware configuration. See https://gateway-doc.onrender.com/configuration/rate_limit/.
           [rate_limit_config]
 
         # Specific maximum size of incoming request body in bytes. 
